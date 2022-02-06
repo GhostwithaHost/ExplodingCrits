@@ -1,0 +1,42 @@
+.header{
+    text-align: center;
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+.gamepublisher{
+    text-align: center;
+}
+.gameButtons{
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+#playBoard{ 
+    width: 62vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100px;
+    margin-top: 40px;
+}
+.square{
+        height: 12vh;
+        width: 12vw;
+        display: flex;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        border: solid black 1px;
+}
+#information{
+    text-align: center;
+}
